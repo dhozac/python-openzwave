@@ -96,7 +96,6 @@ setup(
   #data_files = data_files,
   #recommend : "pysqlite >= 2.6",
   install_requires=[ dispatch_package,
-                     'libopenzwave == %s' % pyozw_version,
                      'six',
                     ]
 )
