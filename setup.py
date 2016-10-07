@@ -88,7 +88,7 @@ setup(
                                ('PY_SSIZE_T_CLEAN',1),
                            ],
                            include_dirs=['/usr/include/openzwave', '/usr/include/openzwave/value_classes', '/usr/include/openzwave/platform', "src/libopenzwave"]
-    )]
+    )],
   #packages = find_packages(),
   #packages = ['openzwave'],
   packages = find_packages('src', exclude=["scripts"]),
